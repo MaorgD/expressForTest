@@ -1,4 +1,6 @@
 import express from 'express';
+const cors = require("cors");
+
 const forbs = [{
         "id": 1,
         "name": "Jeff Bezos",
@@ -91,6 +93,7 @@ const forbs = [{
     }
 ]
 const app = express();
+app.use(cors());
 
 app.get('/', (req, res) => {
     res.json(forbs);
