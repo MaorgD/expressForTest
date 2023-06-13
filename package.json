@@ -2,10 +2,9 @@
     "name": "express",
     "version": "1.0.0",
     "description": "express server",
-    "main": "index.js",
     "type": "module",
     "scripts": {
-        "start": "index.js",
+        "start": "npm start",
         "dev": "nodemon index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
