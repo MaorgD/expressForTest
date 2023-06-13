@@ -4,7 +4,7 @@
     "description": "express server",
     "type": "module",
     "scripts": {
-        "start": "npm start",
+        "start": "node index",
         "dev": "nodemon index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
